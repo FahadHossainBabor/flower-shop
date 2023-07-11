@@ -80,37 +80,47 @@
   margin-bottom: 50px;
 }
 
-.images {
-  display: flex;
-  /* justify-content: space-between; */
-  gap: 50px;
-  justify-content: center;
-  align-items: center;
+/* Images section */
+
+
+
+/* Creative Section */
+
+.creative{
+    background-color: #e55473;
+    height: 300px;
+    margin: 50px 50px 70px 50px;
 }
 
-.box-images {
-  height: 450px;
-  height: 500px;
-  border: 2px solid red;
-  margin-bottom: 50px;
+.creative-header{
+    text-align: center;
+    margin-bottom: 50px;
 }
+.flower-facts {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .fact-box {
+    width: 20%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .fact-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .fact-box p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
 
-.box1 {
-  border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
-  flex-shrink: 0;
-}
-
-.box2 {
-  border-radius: 300px 300px 0px 0px;
-  background: rgba(5, 151, 160, 0.15);
-}
-
-.box3 {
-  border-radius: 300px 300px 0px 0px;
-  background: rgba(71, 125, 17, 0.15);
-}
-
+/* Hot-deal section */
 .hotdeal {
   display: flex;
   justify-content: space-between;
